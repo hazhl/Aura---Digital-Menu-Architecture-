@@ -6,18 +6,18 @@ PlatformOrganization: minusJavaDocument
 
  Version: 1.0
 
- Status: Live Demo Environment1
+ Status: Status: Design / Pre-Deployment
 
 ---
 
 ## Executive Summary
 
-  This document outlines the infrastructure architecture for the live demonstration environment of the Aura project.
+  This document outlines the purposed infrastructure architecture for a planned  demonstration environment of the Aura project.
    The objective is to provide a highly available, cost-effective, and performant hosting solution to showcase interactive, GSAP-animated digital menus to prospective cafe and restaurant clients. The architecture leverages **Amazon Lightsail** to minimize operational overhead while ensuring a secure and scalable foundation.
 
 ## System Overview
 
-   The Aura demo environment is hosted entirely within the *Amazon Web Services (AWS) cloud*, utilizing **Amazon Lightsail** as the primary compute and networking tier. This Virtual Private Server (VPS) model encapsulates the web server, application assets, and local storage into a unified, predictable environment. Continuous Integration and Continuous Deployment (CI/CD) pipelines are established to ensure that the live demo reflects the latest source code.
+   The Aura demo environment will be hosted entirely within the *Amazon Web Services (AWS) cloud*, utilizing **Amazon Lightsail** as the primary compute and networking tier. This Virtual Private Server (VPS) model encapsulates the web server, application assets, and local storage into a unified, predictable environment. Continuous Integration and Continuous Deployment (CI/CD) pipelines will be established to ensure that the live demo reflects the latest source code.
 
 ## Infrastructure Components
 
@@ -44,5 +44,5 @@ PlatformOrganization: minusJavaDocument
 The deployment lifecycle is fully automated to reduce manual overhead and human error:
 
 * **Version Control:** Source code is maintained in a centralized GitHub repository
-* **CI/CD Pipeline:** A GitHub Actions workflow is configured to listen for changes to the main branch.
+* **CI/CD Pipeline:** A GitHub Actions workflow will be configured to to listen for changes to the main branch.
 * **Automated Delivery:** Upon a successful merge, the pipeline securely authenticates with the Lightsail instance via SSH and deploys the updated front-end assets directly to the Nginx web root directory.
