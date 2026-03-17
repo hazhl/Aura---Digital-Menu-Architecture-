@@ -18,6 +18,7 @@ PlatformOrganization: minusJavaDocument
 ## System Overview
 
    The Aura demo environment will be hosted entirely within the *Amazon Web Services (AWS) cloud*, utilizing **Amazon Lightsail** as the primary compute and networking tier. This Virtual Private Server (VPS) model encapsulates the web server, application assets, and local storage into a unified, predictable environment. Continuous Integration and Continuous Deployment (CI/CD) pipelines will be established to ensure that the live demo reflects the latest source code.
+   For scalability and future production-readiness, optional components such as a load balancer, managed database, and object storage are included in the architecture but are not required for the initial demo deployment.
 
 ## Infrastructure Components
 
