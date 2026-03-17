@@ -29,12 +29,6 @@ The system is designed using **Amazon Lightsail** as the core hosting environmen
 
 ---
 
-## 🖼️ Architecture Diagram
-
-![ARCHITECTURE diagram.png](https://github.com/hazhl/Aura---Digital-Menu-Architecture-/blob/e04b24a6af04f6473c704d12519050461bf2b8d5/ARCHITECTURE%20diagram.png)
-
----
-
 ## ⚙️ Features
 
 - 🎨 Interactive and animated UI (GSAP-based)
